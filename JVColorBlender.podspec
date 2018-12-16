@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JVColorBlender'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = '=JVColorBlender.'
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Jasperav' => 'Jasperav@hotmail.com' }
-  s.source           = { :git => 'https://Jasperav@bitbucket.org/Jasperav/jvcolorblender.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Jasperav/JVColorBlender.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '11.0'
