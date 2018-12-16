@@ -1,5 +1,5 @@
 public extension String {
-    public var contentTypeColorBlender: ContentTypeColorBlender {
+    var contentTypeColorBlender: ContentTypeColorBlender {
         get {
             return ContentTypeColorBlender.getContentType(contentTypeId: self)
         }

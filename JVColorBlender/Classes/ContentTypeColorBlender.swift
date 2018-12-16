@@ -1,5 +1,5 @@
-import ContentType
-import RandomNumberGenerator
+import JVContentType
+import JVRandomNumberGenerator
 
 public final class ContentTypeColorBlender: ContentTypeGroup, Copyable {
     

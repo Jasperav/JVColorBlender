@@ -1,5 +1,5 @@
 import UIKit
-import RandomNumberGenerator
+import JVRandomNumberGenerator
 
 public class ColorBlender {
     
