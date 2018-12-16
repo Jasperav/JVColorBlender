@@ -1,0 +1,27 @@
+PODS:
+  - JVColorBlender (0.1.0):
+    - JVContentType
+    - JVRandomNumberGenerator
+  - JVContentType (0.1.0)
+  - JVRandomNumberGenerator (0.1.2)
+
+DEPENDENCIES:
+  - JVColorBlender (from `../`)
+
+SPEC REPOS:
+  "https://Jasperav@bitbucket.org/Jasperav/specs.git":
+    - JVContentType
+    - JVRandomNumberGenerator
+
+EXTERNAL SOURCES:
+  JVColorBlender:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JVColorBlender: 43fd71464a45dc7a1ee9104939ac5c8be944be85
+  JVContentType: 5cf5622da8f46a89c10b79f98248a5c89c43b4fc
+  JVRandomNumberGenerator: 320ca0cb049aa0280d6860e460d5d63b8c6a9f56
+
+PODFILE CHECKSUM: b1d3920c744df880afcc5ffd4067c3028debceea
+
+COCOAPODS: 1.6.0.beta.1

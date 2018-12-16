@@ -1,0 +1,12 @@
+source 'https://Jasperav@bitbucket.org/Jasperav/specs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, ’11.0’
+
+
+use_frameworks!
+target 'JVColorBlender_Tests' do
+  pod 'JVColorBlender', :path => '../'
+  
+  
+end

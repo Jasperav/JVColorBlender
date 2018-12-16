@@ -1,0 +1,1047 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01C041CDCDDE252089EB7C6C8A0D2A99 /* ContentTypeInitializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0968EAEFB3B65CA9CBA86980DC7AF94 /* ContentTypeInitializable.swift */; };
+		03945EE92DB19E159C3E3DA20F5C89AD /* Pods-JVColorBlender_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F89FFDAF7439C15D2678378705827D3 /* Pods-JVColorBlender_Tests-dummy.m */; };
+		068C36400875AFD61719CEEC208C35CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FFCA2FA6029B2B86A5EF2BE8841CA95 /* Foundation.framework */; };
+		112453C5FAA7772A3E203BC33E2F73D8 /* JVContentType-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3839DFBD286D139F826FDD02ED0C2FDA /* JVContentType-dummy.m */; };
+		138A6E38DB8B612E2D9B2877FC1965C4 /* JVColorBlender-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E06B276536AC2869526D52E6D0FC2A0 /* JVColorBlender-dummy.m */; };
+		2F6EDB20782E90B68B38D5B3A19335B7 /* ContentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F06163F322F28CC88E655B0AA3B5C2 /* ContentType.swift */; };
+		31E0923998385D0CAD77A07E11393655 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFDE3F83780BF385C996A77D5603508 /* ArrayExtensions.swift */; };
+		3C0BE67144D8435638FE717EC24CC10E /* JVRandomNumberGenerator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D27C19D0682444DDEAEB30C6742A58 /* JVRandomNumberGenerator-dummy.m */; };
+		44CFF1414C0F4D255B47911662C90EAF /* Copyable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02FCA0BD893894CADBF9C39481AB2E9 /* Copyable.swift */; };
+		4ACD7614E1CC984267B8ABDBA004181E /* RandomNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3172EBBC6B1F2605C96CFAA06B689E6A /* RandomNumber.swift */; };
+		571BE1D4651157461B7410533C11BDFA /* Pods-JVColorBlender_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1475266EB54B814D5B5B0042BCB658F7 /* Pods-JVColorBlender_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		574A59A128942BB61C3138D7C4C62ABF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FFCA2FA6029B2B86A5EF2BE8841CA95 /* Foundation.framework */; };
+		79EDB18F18D93968FFDB0195A9726699 /* JVColorBlender-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5A9A8835D7F8668BFEF24BE2BFED4AA /* JVColorBlender-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8ABFB11A424EBBD41E306796BDC12EB3 /* RandomProbability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628DD54135DD920C7E460D9D740600A3 /* RandomProbability.swift */; };
+		99EA8E80A24CBC849A39AB49288445D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FFCA2FA6029B2B86A5EF2BE8841CA95 /* Foundation.framework */; };
+		9DD8338546B7E8906F90BCE93E347DD5 /* JVRandomNumberGenerator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7FF08048EF01DECE2D13B962A8105DF /* JVRandomNumberGenerator.framework */; };
+		A669C71768F2029D8A8F7B07A60B4E76 /* JVRandomNumberGenerator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D74C3740DEE8FB9C9DE9172AB89EF7B /* JVRandomNumberGenerator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D81220548AE82B3EFA147299704F58F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FFCA2FA6029B2B86A5EF2BE8841CA95 /* Foundation.framework */; };
+		E3A487E225C55C4544B7C3785215C3CF /* ContentTypeGroupInitializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2178B4B50A815332D46462B0E1B2486 /* ContentTypeGroupInitializable.swift */; };
+		EB835E949A8A747D7022F6F28025E362 /* JVContentType.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42944C4FB9025588753A810055F4A6E3 /* JVContentType.framework */; };
+		F9F3C4D1A39087A18FA7DEE4C1430ECB /* JVContentType-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C114BF2F1CDE375619EDC14A675C5754 /* JVContentType-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC4B0095A308E6BDFED53A615345F447 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CA313862C641D62175050B4FF27D3D /* Extensions.swift */; };
+		FDE437E66D6396B00D83235BD108C297 /* ContentTypeGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEB9F1D73154DF99BA1385F82AEFB7B /* ContentTypeGroup.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27C56B5B71B53ADA444A70E4DB862F44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C849145EF0773953FD900A07D571334;
+			remoteInfo = JVContentType;
+		};
+		5E3FFAADC9FF0104D16D0FC5FAC11D16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA4697A275BDB5C39F874A320D3D4FF8;
+			remoteInfo = JVColorBlender;
+		};
+		9C12CB7C85237C4EAE7E0AD6A5F8B6DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99A98B438BF0A8A90E5C7AB9B6A06F5D;
+			remoteInfo = JVRandomNumberGenerator;
+		};
+		9CF1B0C7852E066C2C2A34F59558947C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C849145EF0773953FD900A07D571334;
+			remoteInfo = JVContentType;
+		};
+		DAA83BF833EA1EC1EAF87AAD1D10A859 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99A98B438BF0A8A90E5C7AB9B6A06F5D;
+			remoteInfo = JVRandomNumberGenerator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02C5331C29C7B96BC7495E17F4B4B30A /* Pods-JVColorBlender_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JVColorBlender_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		05BD24698E4C86EAFEEB7C94AEE5FFBA /* JVRandomNumberGenerator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVRandomNumberGenerator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11C85F3F888A2AE7B073115C11B75345 /* JVColorBlender.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVColorBlender.modulemap; sourceTree = "<group>"; };
+		1475266EB54B814D5B5B0042BCB658F7 /* Pods-JVColorBlender_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JVColorBlender_Tests-umbrella.h"; sourceTree = "<group>"; };
+		26CA313862C641D62175050B4FF27D3D /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = JVRandomNumberGenerator/Classes/Extensions.swift; sourceTree = "<group>"; };
+		2A1EB41AEABE0587E71CC9E294DAD756 /* JVRandomNumberGenerator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVRandomNumberGenerator-prefix.pch"; sourceTree = "<group>"; };
+		2B16D5EF50E8E05DC4F84B425279B229 /* JVRandomNumberGenerator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVRandomNumberGenerator.xcconfig; sourceTree = "<group>"; };
+		2F89FFDAF7439C15D2678378705827D3 /* Pods-JVColorBlender_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JVColorBlender_Tests-dummy.m"; sourceTree = "<group>"; };
+		3172EBBC6B1F2605C96CFAA06B689E6A /* RandomNumber.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RandomNumber.swift; path = JVRandomNumberGenerator/Classes/RandomNumber.swift; sourceTree = "<group>"; };
+		3839DFBD286D139F826FDD02ED0C2FDA /* JVContentType-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVContentType-dummy.m"; sourceTree = "<group>"; };
+		3AFDE3F83780BF385C996A77D5603508 /* ArrayExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArrayExtensions.swift; path = JVContentType/Classes/ArrayExtensions.swift; sourceTree = "<group>"; };
+		3C10A9C3E6691E4009ACD9346C9E35E5 /* JVContentType.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVContentType.modulemap; sourceTree = "<group>"; };
+		3E06B276536AC2869526D52E6D0FC2A0 /* JVColorBlender-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVColorBlender-dummy.m"; sourceTree = "<group>"; };
+		4073EE364F3D93D06A9881507BBE794F /* Pods-JVColorBlender_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JVColorBlender_Tests-Info.plist"; sourceTree = "<group>"; };
+		42944C4FB9025588753A810055F4A6E3 /* JVContentType.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVContentType.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D74C3740DEE8FB9C9DE9172AB89EF7B /* JVRandomNumberGenerator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVRandomNumberGenerator-umbrella.h"; sourceTree = "<group>"; };
+		52AF43BB117618F8EF5334A8F906CDB9 /* JVRandomNumberGenerator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVRandomNumberGenerator.modulemap; sourceTree = "<group>"; };
+		52D27C19D0682444DDEAEB30C6742A58 /* JVRandomNumberGenerator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVRandomNumberGenerator-dummy.m"; sourceTree = "<group>"; };
+		628DD54135DD920C7E460D9D740600A3 /* RandomProbability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RandomProbability.swift; path = JVRandomNumberGenerator/Classes/RandomProbability.swift; sourceTree = "<group>"; };
+		69B1CDF021C6F13100653927 /* ColorBlender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorBlender.swift; sourceTree = "<group>"; };
+		69B1CDF121C6F13100653927 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		69B1CDF221C6F13100653927 /* ContentTypeColorBlender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTypeColorBlender.swift; sourceTree = "<group>"; };
+		69B1CDF321C6F13200653927 /* UIColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		6CA7D928FA5D88F72931167E6E4D123D /* Pods-JVColorBlender_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JVColorBlender_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6D7CB618ADD4F815A32CC87E8349FB19 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6FFCA2FA6029B2B86A5EF2BE8841CA95 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		770E70235107BAAF4EBF62EC95A07065 /* JVColorBlender-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVColorBlender-Info.plist"; sourceTree = "<group>"; };
+		7CEFEFF35A624BF4B8C3F196D36F6069 /* JVContentType-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVContentType-prefix.pch"; sourceTree = "<group>"; };
+		865A445C3E7CCE481463284C43F0BF72 /* JVRandomNumberGenerator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVRandomNumberGenerator-Info.plist"; sourceTree = "<group>"; };
+		88D4B56FB5FD335FA7361A6168CA1289 /* Pods-JVColorBlender_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JVColorBlender_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A20CFE25C700C035A78FAF3A63C2DD2C /* JVContentType.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVContentType.xcconfig; sourceTree = "<group>"; };
+		A42E1249F083AA0004BD12A358D7EF4C /* Pods-JVColorBlender_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JVColorBlender_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		A486CE54AFD3FBB73B28EF850F75F732 /* JVColorBlender.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = JVColorBlender.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A7F06163F322F28CC88E655B0AA3B5C2 /* ContentType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentType.swift; path = JVContentType/Classes/ContentType.swift; sourceTree = "<group>"; };
+		B346D8B7ABB0AFC76DD7CD86B726FA6C /* JVColorBlender-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVColorBlender-prefix.pch"; sourceTree = "<group>"; };
+		B6DCB8CF3066B3E6E58C053AF903D559 /* Pods_JVColorBlender_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JVColorBlender_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7FF08048EF01DECE2D13B962A8105DF /* JVRandomNumberGenerator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVRandomNumberGenerator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDEB9F1D73154DF99BA1385F82AEFB7B /* ContentTypeGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeGroup.swift; path = JVContentType/Classes/ContentTypeGroup.swift; sourceTree = "<group>"; };
+		C114BF2F1CDE375619EDC14A675C5754 /* JVContentType-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVContentType-umbrella.h"; sourceTree = "<group>"; };
+		C2AF9AB63FE9CF77DE74ACF36CD890B1 /* JVColorBlender.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVColorBlender.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8E77EC484F658160A93172B82E94722 /* Pods-JVColorBlender_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JVColorBlender_Tests.modulemap"; sourceTree = "<group>"; };
+		D0968EAEFB3B65CA9CBA86980DC7AF94 /* ContentTypeInitializable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeInitializable.swift; path = JVContentType/Classes/ContentTypeInitializable.swift; sourceTree = "<group>"; };
+		D10149D85DFF4D5891FEA734660E5143 /* Pods-JVColorBlender_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JVColorBlender_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D11D278989B36F80F6E0FD587EEDD19C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D2178B4B50A815332D46462B0E1B2486 /* ContentTypeGroupInitializable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeGroupInitializable.swift; path = JVContentType/Classes/ContentTypeGroupInitializable.swift; sourceTree = "<group>"; };
+		DD3CE0BA7B41D500F50AA3D283283B16 /* JVContentType-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVContentType-Info.plist"; sourceTree = "<group>"; };
+		E02FCA0BD893894CADBF9C39481AB2E9 /* Copyable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Copyable.swift; path = JVContentType/Classes/Copyable.swift; sourceTree = "<group>"; };
+		E1F3E0DCA6FE6DD7A2BFF07534677D67 /* JVContentType.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVContentType.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5A9A8835D7F8668BFEF24BE2BFED4AA /* JVColorBlender-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVColorBlender-umbrella.h"; sourceTree = "<group>"; };
+		F2AE799A8BFC8E8F496B91A87E09D5AF /* JVColorBlender.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVColorBlender.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		363AB187BBDA11FA3E1644409DDFF0AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				574A59A128942BB61C3138D7C4C62ABF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F2379E26FAA0218FB4645F8EE43DA35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				068C36400875AFD61719CEEC208C35CD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0691940AB0A5C8C230A658BE7A7960B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D81220548AE82B3EFA147299704F58F4 /* Foundation.framework in Frameworks */,
+				EB835E949A8A747D7022F6F28025E362 /* JVContentType.framework in Frameworks */,
+				9DD8338546B7E8906F90BCE93E347DD5 /* JVRandomNumberGenerator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4312EDB20E8E631A0D6C5013CA93763 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99EA8E80A24CBC849A39AB49288445D4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10BDFA20778D0BCCEFB277A2EA37B30E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5C172D86D367294554BB0D3F8E6E46C /* Pods-JVColorBlender_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3BA5E28AA344F3BC5EB8CDAC10966D49 /* JVColorBlender */ = {
+			isa = PBXGroup;
+			children = (
+				69B1CDF021C6F13100653927 /* ColorBlender.swift */,
+				69B1CDF221C6F13100653927 /* ContentTypeColorBlender.swift */,
+				69B1CDF121C6F13100653927 /* StringExtensions.swift */,
+				69B1CDF321C6F13200653927 /* UIColorExtensions.swift */,
+				EA8264D37F5FC2AC1672FFFCF6B3C349 /* Pod */,
+				D1298D8E2159141ABAFBEE2A6379C19D /* Support Files */,
+			);
+			name = JVColorBlender;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		45A66DA6ABDCF0E62864078C90A98674 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6FFCA2FA6029B2B86A5EF2BE8841CA95 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		47D1BD40466308AD45F8C166108556F8 /* JVContentType */ = {
+			isa = PBXGroup;
+			children = (
+				3AFDE3F83780BF385C996A77D5603508 /* ArrayExtensions.swift */,
+				A7F06163F322F28CC88E655B0AA3B5C2 /* ContentType.swift */,
+				BDEB9F1D73154DF99BA1385F82AEFB7B /* ContentTypeGroup.swift */,
+				D2178B4B50A815332D46462B0E1B2486 /* ContentTypeGroupInitializable.swift */,
+				D0968EAEFB3B65CA9CBA86980DC7AF94 /* ContentTypeInitializable.swift */,
+				E02FCA0BD893894CADBF9C39481AB2E9 /* Copyable.swift */,
+				57078A78B7FBBDFC202BB60BED5FFA02 /* Support Files */,
+			);
+			path = JVContentType;
+			sourceTree = "<group>";
+		};
+		4926449CD50EAB00024D3F3B9E43FCA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2AF9AB63FE9CF77DE74ACF36CD890B1 /* JVColorBlender.framework */,
+				E1F3E0DCA6FE6DD7A2BFF07534677D67 /* JVContentType.framework */,
+				05BD24698E4C86EAFEEB7C94AEE5FFBA /* JVRandomNumberGenerator.framework */,
+				B6DCB8CF3066B3E6E58C053AF903D559 /* Pods_JVColorBlender_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57078A78B7FBBDFC202BB60BED5FFA02 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C10A9C3E6691E4009ACD9346C9E35E5 /* JVContentType.modulemap */,
+				A20CFE25C700C035A78FAF3A63C2DD2C /* JVContentType.xcconfig */,
+				3839DFBD286D139F826FDD02ED0C2FDA /* JVContentType-dummy.m */,
+				DD3CE0BA7B41D500F50AA3D283283B16 /* JVContentType-Info.plist */,
+				7CEFEFF35A624BF4B8C3F196D36F6069 /* JVContentType-prefix.pch */,
+				C114BF2F1CDE375619EDC14A675C5754 /* JVContentType-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JVContentType";
+			sourceTree = "<group>";
+		};
+		5E2F3E79ABA7F4D29956B63E9F8309C2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				52AF43BB117618F8EF5334A8F906CDB9 /* JVRandomNumberGenerator.modulemap */,
+				2B16D5EF50E8E05DC4F84B425279B229 /* JVRandomNumberGenerator.xcconfig */,
+				52D27C19D0682444DDEAEB30C6742A58 /* JVRandomNumberGenerator-dummy.m */,
+				865A445C3E7CCE481463284C43F0BF72 /* JVRandomNumberGenerator-Info.plist */,
+				2A1EB41AEABE0587E71CC9E294DAD756 /* JVRandomNumberGenerator-prefix.pch */,
+				4D74C3740DEE8FB9C9DE9172AB89EF7B /* JVRandomNumberGenerator-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JVRandomNumberGenerator";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				88F0039812F865908F0418CC659A441D /* Development Pods */,
+				B8F6A9A8B1CEE83B6A4E14D429081C5B /* Frameworks */,
+				7DD2ACBDC75AF4BB6C7FCBAD8D0851E5 /* Pods */,
+				4926449CD50EAB00024D3F3B9E43FCA4 /* Products */,
+				10BDFA20778D0BCCEFB277A2EA37B30E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7DD2ACBDC75AF4BB6C7FCBAD8D0851E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47D1BD40466308AD45F8C166108556F8 /* JVContentType */,
+				E049025E72FEC060C604101FF92D55FB /* JVRandomNumberGenerator */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		88F0039812F865908F0418CC659A441D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3BA5E28AA344F3BC5EB8CDAC10966D49 /* JVColorBlender */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A5C172D86D367294554BB0D3F8E6E46C /* Pods-JVColorBlender_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C8E77EC484F658160A93172B82E94722 /* Pods-JVColorBlender_Tests.modulemap */,
+				6CA7D928FA5D88F72931167E6E4D123D /* Pods-JVColorBlender_Tests-acknowledgements.markdown */,
+				02C5331C29C7B96BC7495E17F4B4B30A /* Pods-JVColorBlender_Tests-acknowledgements.plist */,
+				2F89FFDAF7439C15D2678378705827D3 /* Pods-JVColorBlender_Tests-dummy.m */,
+				A42E1249F083AA0004BD12A358D7EF4C /* Pods-JVColorBlender_Tests-frameworks.sh */,
+				4073EE364F3D93D06A9881507BBE794F /* Pods-JVColorBlender_Tests-Info.plist */,
+				1475266EB54B814D5B5B0042BCB658F7 /* Pods-JVColorBlender_Tests-umbrella.h */,
+				D10149D85DFF4D5891FEA734660E5143 /* Pods-JVColorBlender_Tests.debug.xcconfig */,
+				88D4B56FB5FD335FA7361A6168CA1289 /* Pods-JVColorBlender_Tests.release.xcconfig */,
+			);
+			name = "Pods-JVColorBlender_Tests";
+			path = "Target Support Files/Pods-JVColorBlender_Tests";
+			sourceTree = "<group>";
+		};
+		B8F6A9A8B1CEE83B6A4E14D429081C5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42944C4FB9025588753A810055F4A6E3 /* JVContentType.framework */,
+				B7FF08048EF01DECE2D13B962A8105DF /* JVRandomNumberGenerator.framework */,
+				45A66DA6ABDCF0E62864078C90A98674 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D1298D8E2159141ABAFBEE2A6379C19D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				11C85F3F888A2AE7B073115C11B75345 /* JVColorBlender.modulemap */,
+				F2AE799A8BFC8E8F496B91A87E09D5AF /* JVColorBlender.xcconfig */,
+				3E06B276536AC2869526D52E6D0FC2A0 /* JVColorBlender-dummy.m */,
+				770E70235107BAAF4EBF62EC95A07065 /* JVColorBlender-Info.plist */,
+				B346D8B7ABB0AFC76DD7CD86B726FA6C /* JVColorBlender-prefix.pch */,
+				E5A9A8835D7F8668BFEF24BE2BFED4AA /* JVColorBlender-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JVColorBlender";
+			sourceTree = "<group>";
+		};
+		E049025E72FEC060C604101FF92D55FB /* JVRandomNumberGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				26CA313862C641D62175050B4FF27D3D /* Extensions.swift */,
+				3172EBBC6B1F2605C96CFAA06B689E6A /* RandomNumber.swift */,
+				628DD54135DD920C7E460D9D740600A3 /* RandomProbability.swift */,
+				5E2F3E79ABA7F4D29956B63E9F8309C2 /* Support Files */,
+			);
+			path = JVRandomNumberGenerator;
+			sourceTree = "<group>";
+		};
+		EA8264D37F5FC2AC1672FFFCF6B3C349 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A486CE54AFD3FBB73B28EF850F75F732 /* JVColorBlender.podspec */,
+				D11D278989B36F80F6E0FD587EEDD19C /* LICENSE */,
+				6D7CB618ADD4F815A32CC87E8349FB19 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		88D5B65D3FA5C305C389D2935E027BCB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9F3C4D1A39087A18FA7DEE4C1430ECB /* JVContentType-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95C8B8119325902AE4510EEED5EF89D9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				571BE1D4651157461B7410533C11BDFA /* Pods-JVColorBlender_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF472AC8183EF007DEBA7DF52F528353 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A669C71768F2029D8A8F7B07A60B4E76 /* JVRandomNumberGenerator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2C2248451EE1DC6E8E1195EABE79B59 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79EDB18F18D93968FFDB0195A9726699 /* JVColorBlender-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8C849145EF0773953FD900A07D571334 /* JVContentType */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5B13EF0CA0160A45E02C8E8697328A3 /* Build configuration list for PBXNativeTarget "JVContentType" */;
+			buildPhases = (
+				88D5B65D3FA5C305C389D2935E027BCB /* Headers */,
+				BAF80171B33A17809ABC0C600AEFDAF8 /* Sources */,
+				D4312EDB20E8E631A0D6C5013CA93763 /* Frameworks */,
+				25098532EA3ACA09D0B7134DF7E0442A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JVContentType;
+			productName = JVContentType;
+			productReference = E1F3E0DCA6FE6DD7A2BFF07534677D67 /* JVContentType.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		99A98B438BF0A8A90E5C7AB9B6A06F5D /* JVRandomNumberGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70E88D95271ADA8D473474E46E5930D8 /* Build configuration list for PBXNativeTarget "JVRandomNumberGenerator" */;
+			buildPhases = (
+				AF472AC8183EF007DEBA7DF52F528353 /* Headers */,
+				447FB5A6820F46198F5D7378A6E7191D /* Sources */,
+				3F2379E26FAA0218FB4645F8EE43DA35 /* Frameworks */,
+				3A643C19C26D045F57CA5C5FF54427C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JVRandomNumberGenerator;
+			productName = JVRandomNumberGenerator;
+			productReference = 05BD24698E4C86EAFEEB7C94AEE5FFBA /* JVRandomNumberGenerator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BE378B245CFFBB0640A4774943A74FF4 /* Pods-JVColorBlender_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5252487F6F9AF78E16EEE0EA8AFD15F1 /* Build configuration list for PBXNativeTarget "Pods-JVColorBlender_Tests" */;
+			buildPhases = (
+				95C8B8119325902AE4510EEED5EF89D9 /* Headers */,
+				6F6732E71EB9754D5AC821D6624AB9D5 /* Sources */,
+				363AB187BBDA11FA3E1644409DDFF0AD /* Frameworks */,
+				35686403E54DB03100E48DEEDBFCF23C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC2F3509ABADEA37381B0E203B7C7837 /* PBXTargetDependency */,
+				23FF9BC3A5098E2FCA402273299766AC /* PBXTargetDependency */,
+				309F1953E2C3DE158F5C527BB11F1CC3 /* PBXTargetDependency */,
+			);
+			name = "Pods-JVColorBlender_Tests";
+			productName = "Pods-JVColorBlender_Tests";
+			productReference = B6DCB8CF3066B3E6E58C053AF903D559 /* Pods_JVColorBlender_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DA4697A275BDB5C39F874A320D3D4FF8 /* JVColorBlender */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1631BAFDAAF34F1B7892EC83220C98E /* Build configuration list for PBXNativeTarget "JVColorBlender" */;
+			buildPhases = (
+				D2C2248451EE1DC6E8E1195EABE79B59 /* Headers */,
+				9F2F7FC1A1D6EE48D08B5C8F245DEE1B /* Sources */,
+				C0691940AB0A5C8C230A658BE7A7960B /* Frameworks */,
+				59430056087FE17138E3A788B8D02BA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE4C865BFBFEBC1C8C71B88B4F36A15D /* PBXTargetDependency */,
+				827A366B6A3D1304B105F1EFFF39C242 /* PBXTargetDependency */,
+			);
+			name = JVColorBlender;
+			productName = JVColorBlender;
+			productReference = C2AF9AB63FE9CF77DE74ACF36CD890B1 /* JVColorBlender.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4926449CD50EAB00024D3F3B9E43FCA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA4697A275BDB5C39F874A320D3D4FF8 /* JVColorBlender */,
+				8C849145EF0773953FD900A07D571334 /* JVContentType */,
+				99A98B438BF0A8A90E5C7AB9B6A06F5D /* JVRandomNumberGenerator */,
+				BE378B245CFFBB0640A4774943A74FF4 /* Pods-JVColorBlender_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25098532EA3ACA09D0B7134DF7E0442A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35686403E54DB03100E48DEEDBFCF23C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A643C19C26D045F57CA5C5FF54427C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59430056087FE17138E3A788B8D02BA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		447FB5A6820F46198F5D7378A6E7191D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC4B0095A308E6BDFED53A615345F447 /* Extensions.swift in Sources */,
+				3C0BE67144D8435638FE717EC24CC10E /* JVRandomNumberGenerator-dummy.m in Sources */,
+				4ACD7614E1CC984267B8ABDBA004181E /* RandomNumber.swift in Sources */,
+				8ABFB11A424EBBD41E306796BDC12EB3 /* RandomProbability.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F6732E71EB9754D5AC821D6624AB9D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03945EE92DB19E159C3E3DA20F5C89AD /* Pods-JVColorBlender_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F2F7FC1A1D6EE48D08B5C8F245DEE1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				138A6E38DB8B612E2D9B2877FC1965C4 /* JVColorBlender-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAF80171B33A17809ABC0C600AEFDAF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31E0923998385D0CAD77A07E11393655 /* ArrayExtensions.swift in Sources */,
+				2F6EDB20782E90B68B38D5B3A19335B7 /* ContentType.swift in Sources */,
+				FDE437E66D6396B00D83235BD108C297 /* ContentTypeGroup.swift in Sources */,
+				E3A487E225C55C4544B7C3785215C3CF /* ContentTypeGroupInitializable.swift in Sources */,
+				01C041CDCDDE252089EB7C6C8A0D2A99 /* ContentTypeInitializable.swift in Sources */,
+				44CFF1414C0F4D255B47911662C90EAF /* Copyable.swift in Sources */,
+				112453C5FAA7772A3E203BC33E2F73D8 /* JVContentType-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23FF9BC3A5098E2FCA402273299766AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JVContentType;
+			target = 8C849145EF0773953FD900A07D571334 /* JVContentType */;
+			targetProxy = 27C56B5B71B53ADA444A70E4DB862F44 /* PBXContainerItemProxy */;
+		};
+		309F1953E2C3DE158F5C527BB11F1CC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JVRandomNumberGenerator;
+			target = 99A98B438BF0A8A90E5C7AB9B6A06F5D /* JVRandomNumberGenerator */;
+			targetProxy = 9C12CB7C85237C4EAE7E0AD6A5F8B6DB /* PBXContainerItemProxy */;
+		};
+		827A366B6A3D1304B105F1EFFF39C242 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JVRandomNumberGenerator;
+			target = 99A98B438BF0A8A90E5C7AB9B6A06F5D /* JVRandomNumberGenerator */;
+			targetProxy = DAA83BF833EA1EC1EAF87AAD1D10A859 /* PBXContainerItemProxy */;
+		};
+		FC2F3509ABADEA37381B0E203B7C7837 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JVColorBlender;
+			target = DA4697A275BDB5C39F874A320D3D4FF8 /* JVColorBlender */;
+			targetProxy = 5E3FFAADC9FF0104D16D0FC5FAC11D16 /* PBXContainerItemProxy */;
+		};
+		FE4C865BFBFEBC1C8C71B88B4F36A15D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JVContentType;
+			target = 8C849145EF0773953FD900A07D571334 /* JVContentType */;
+			targetProxy = 9CF1B0C7852E066C2C2A34F59558947C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2137F0A7C0A4F5402B116EF0E9730B66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B16D5EF50E8E05DC4F84B425279B229 /* JVRandomNumberGenerator.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JVRandomNumberGenerator/JVRandomNumberGenerator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVRandomNumberGenerator/JVRandomNumberGenerator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JVRandomNumberGenerator/JVRandomNumberGenerator.modulemap";
+				PRODUCT_MODULE_NAME = JVRandomNumberGenerator;
+				PRODUCT_NAME = JVRandomNumberGenerator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		21A5F286912E9335F2EB39ABE978DCB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A20CFE25C700C035A78FAF3A63C2DD2C /* JVContentType.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JVContentType/JVContentType-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVContentType/JVContentType-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JVContentType/JVContentType.modulemap";
+				PRODUCT_MODULE_NAME = JVContentType;
+				PRODUCT_NAME = JVContentType;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		42353A06B478EAD186653C455082CA97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2AE799A8BFC8E8F496B91A87E09D5AF /* JVColorBlender.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JVColorBlender/JVColorBlender-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVColorBlender/JVColorBlender-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JVColorBlender/JVColorBlender.modulemap";
+				PRODUCT_MODULE_NAME = JVColorBlender;
+				PRODUCT_NAME = JVColorBlender;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		50999769EB4755C8CA55A57168A518AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B16D5EF50E8E05DC4F84B425279B229 /* JVRandomNumberGenerator.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JVRandomNumberGenerator/JVRandomNumberGenerator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVRandomNumberGenerator/JVRandomNumberGenerator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JVRandomNumberGenerator/JVRandomNumberGenerator.modulemap";
+				PRODUCT_MODULE_NAME = JVRandomNumberGenerator;
+				PRODUCT_NAME = JVRandomNumberGenerator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		613F7128804D307C733DB458DBB6FB70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2AE799A8BFC8E8F496B91A87E09D5AF /* JVColorBlender.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JVColorBlender/JVColorBlender-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVColorBlender/JVColorBlender-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JVColorBlender/JVColorBlender.modulemap";
+				PRODUCT_MODULE_NAME = JVColorBlender;
+				PRODUCT_NAME = JVColorBlender;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6AC6D1178E95E4E75A241B2F479B635E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D10149D85DFF4D5891FEA734660E5143 /* Pods-JVColorBlender_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JVColorBlender_Tests/Pods-JVColorBlender_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JVColorBlender_Tests/Pods-JVColorBlender_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EA02B8DBCF6AB01708DB31F1ECD6C3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88D4B56FB5FD335FA7361A6168CA1289 /* Pods-JVColorBlender_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JVColorBlender_Tests/Pods-JVColorBlender_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JVColorBlender_Tests/Pods-JVColorBlender_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8C3D32AC054F4DBEE82EB2FD6A303D73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9C936A23F47DC938BE8D834F987FC15A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A20CFE25C700C035A78FAF3A63C2DD2C /* JVContentType.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JVContentType/JVContentType-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVContentType/JVContentType-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JVContentType/JVContentType.modulemap";
+				PRODUCT_MODULE_NAME = JVContentType;
+				PRODUCT_NAME = JVContentType;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B751CA5B597BFC35A6C0287C65F9E2E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C3D32AC054F4DBEE82EB2FD6A303D73 /* Debug */,
+				B751CA5B597BFC35A6C0287C65F9E2E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5252487F6F9AF78E16EEE0EA8AFD15F1 /* Build configuration list for PBXNativeTarget "Pods-JVColorBlender_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AC6D1178E95E4E75A241B2F479B635E /* Debug */,
+				7EA02B8DBCF6AB01708DB31F1ECD6C3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70E88D95271ADA8D473474E46E5930D8 /* Build configuration list for PBXNativeTarget "JVRandomNumberGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2137F0A7C0A4F5402B116EF0E9730B66 /* Debug */,
+				50999769EB4755C8CA55A57168A518AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1631BAFDAAF34F1B7892EC83220C98E /* Build configuration list for PBXNativeTarget "JVColorBlender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42353A06B478EAD186653C455082CA97 /* Debug */,
+				613F7128804D307C733DB458DBB6FB70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5B13EF0CA0160A45E02C8E8697328A3 /* Build configuration list for PBXNativeTarget "JVContentType" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C936A23F47DC938BE8D834F987FC15A /* Debug */,
+				21A5F286912E9335F2EB39ABE978DCB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
