@@ -1,8 +1,8 @@
 PODS:
-  - JVColorBlender (0.1.0):
+  - JVColorBlender (0.1.3):
     - JVContentType
     - JVRandomNumberGenerator
-  - JVContentType (0.1.0)
+  - JVContentType (0.1.6)
   - JVRandomNumberGenerator (0.1.2)
 
 DEPENDENCIES:
@@ -18,8 +18,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JVColorBlender: 43fd71464a45dc7a1ee9104939ac5c8be944be85
-  JVContentType: 5cf5622da8f46a89c10b79f98248a5c89c43b4fc
+  JVColorBlender: 5127aad453a8175df1bf2e9a97814e50bed6e0b1
+  JVContentType: 4e3a6dd8a99feaff3032928bc808bd3f835ba247
   JVRandomNumberGenerator: 320ca0cb049aa0280d6860e460d5d63b8c6a9f56
 
 PODFILE CHECKSUM: b1d3920c744df880afcc5ffd4067c3028debceea

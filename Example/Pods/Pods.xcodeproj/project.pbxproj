@@ -7,29 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01C041CDCDDE252089EB7C6C8A0D2A99 /* ContentTypeInitializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0968EAEFB3B65CA9CBA86980DC7AF94 /* ContentTypeInitializable.swift */; };
+		02B5DBD839448299CCE7822E601786C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FFCA2FA6029B2B86A5EF2BE8841CA95 /* Foundation.framework */; };
 		03945EE92DB19E159C3E3DA20F5C89AD /* Pods-JVColorBlender_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F89FFDAF7439C15D2678378705827D3 /* Pods-JVColorBlender_Tests-dummy.m */; };
-		068C36400875AFD61719CEEC208C35CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FFCA2FA6029B2B86A5EF2BE8841CA95 /* Foundation.framework */; };
-		112453C5FAA7772A3E203BC33E2F73D8 /* JVContentType-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3839DFBD286D139F826FDD02ED0C2FDA /* JVContentType-dummy.m */; };
-		138A6E38DB8B612E2D9B2877FC1965C4 /* JVColorBlender-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E06B276536AC2869526D52E6D0FC2A0 /* JVColorBlender-dummy.m */; };
-		2F6EDB20782E90B68B38D5B3A19335B7 /* ContentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F06163F322F28CC88E655B0AA3B5C2 /* ContentType.swift */; };
-		31E0923998385D0CAD77A07E11393655 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFDE3F83780BF385C996A77D5603508 /* ArrayExtensions.swift */; };
-		3C0BE67144D8435638FE717EC24CC10E /* JVRandomNumberGenerator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D27C19D0682444DDEAEB30C6742A58 /* JVRandomNumberGenerator-dummy.m */; };
-		44CFF1414C0F4D255B47911662C90EAF /* Copyable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02FCA0BD893894CADBF9C39481AB2E9 /* Copyable.swift */; };
-		4ACD7614E1CC984267B8ABDBA004181E /* RandomNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3172EBBC6B1F2605C96CFAA06B689E6A /* RandomNumber.swift */; };
+		0832495659A96695D054027BF470FC63 /* ContentTypeGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAF0FA322348D45669262E8EA743E8E /* ContentTypeGroup.swift */; };
+		105623F9C1BAC00C9EC225F0F2D7B895 /* JVRandomNumberGenerator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D27C19D0682444DDEAEB30C6742A58 /* JVRandomNumberGenerator-dummy.m */; };
+		179ED6207D179DBFC233E90966C48B9F /* JVRandomNumberGenerator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7FF08048EF01DECE2D13B962A8105DF /* JVRandomNumberGenerator.framework */; };
+		2970F8247959952366847933BC26D017 /* JVContentType.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42944C4FB9025588753A810055F4A6E3 /* JVContentType.framework */; };
+		2FF0F86605D457AC7F0AFF6A4E7B47B5 /* RandomProbability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628DD54135DD920C7E460D9D740600A3 /* RandomProbability.swift */; };
+		4EF34B9B1BE90DA7D70A4B1CCAE63928 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CA313862C641D62175050B4FF27D3D /* Extensions.swift */; };
+		56C33C8B87E006BAE0BCE98991FFB518 /* Copyable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE9CA32223E71F928CF775E1B6D0E64 /* Copyable.swift */; };
 		571BE1D4651157461B7410533C11BDFA /* Pods-JVColorBlender_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1475266EB54B814D5B5B0042BCB658F7 /* Pods-JVColorBlender_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		574A59A128942BB61C3138D7C4C62ABF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FFCA2FA6029B2B86A5EF2BE8841CA95 /* Foundation.framework */; };
-		79EDB18F18D93968FFDB0195A9726699 /* JVColorBlender-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5A9A8835D7F8668BFEF24BE2BFED4AA /* JVColorBlender-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8ABFB11A424EBBD41E306796BDC12EB3 /* RandomProbability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628DD54135DD920C7E460D9D740600A3 /* RandomProbability.swift */; };
-		99EA8E80A24CBC849A39AB49288445D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FFCA2FA6029B2B86A5EF2BE8841CA95 /* Foundation.framework */; };
-		9DD8338546B7E8906F90BCE93E347DD5 /* JVRandomNumberGenerator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7FF08048EF01DECE2D13B962A8105DF /* JVRandomNumberGenerator.framework */; };
-		A669C71768F2029D8A8F7B07A60B4E76 /* JVRandomNumberGenerator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D74C3740DEE8FB9C9DE9172AB89EF7B /* JVRandomNumberGenerator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D81220548AE82B3EFA147299704F58F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FFCA2FA6029B2B86A5EF2BE8841CA95 /* Foundation.framework */; };
-		E3A487E225C55C4544B7C3785215C3CF /* ContentTypeGroupInitializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2178B4B50A815332D46462B0E1B2486 /* ContentTypeGroupInitializable.swift */; };
-		EB835E949A8A747D7022F6F28025E362 /* JVContentType.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42944C4FB9025588753A810055F4A6E3 /* JVContentType.framework */; };
-		F9F3C4D1A39087A18FA7DEE4C1430ECB /* JVContentType-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C114BF2F1CDE375619EDC14A675C5754 /* JVContentType-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FC4B0095A308E6BDFED53A615345F447 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CA313862C641D62175050B4FF27D3D /* Extensions.swift */; };
-		FDE437E66D6396B00D83235BD108C297 /* ContentTypeGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEB9F1D73154DF99BA1385F82AEFB7B /* ContentTypeGroup.swift */; };
+		5E76C283D4B4CA182A1C2DB7AA9CF11F /* ContentTypeGroupInitializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66A0D598D8CA41F6A666DFA8B5D2A47 /* ContentTypeGroupInitializable.swift */; };
+		60738CE5183B8B08742A2AC326BDC7D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FFCA2FA6029B2B86A5EF2BE8841CA95 /* Foundation.framework */; };
+		6553AA59C8AB0A04CE3A2788D60FF21B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FFCA2FA6029B2B86A5EF2BE8841CA95 /* Foundation.framework */; };
+		6D4BEB474280F0325AEB4764639A41CB /* JVRandomNumberGenerator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D74C3740DEE8FB9C9DE9172AB89EF7B /* JVRandomNumberGenerator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7781DC7F9DA3242097DDF469B0150B29 /* ContentTypeColorBlender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FD344C90156E6B19600200FBFC5DFD /* ContentTypeColorBlender.swift */; };
+		7E431B8D233AB0BCC780DBA29C4B7F22 /* JVColorBlender-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1629F751840CA90E797E99A175A4E0 /* JVColorBlender-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F9EDDFB745118C3B0DC232C14B38EC6 /* ColorBlender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C244D9570834514D41176C9F47E497D /* ColorBlender.swift */; };
+		849F6267BA68F9915E3B8D35CA39E0B1 /* JVColorBlender-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E063E0B13C9CBBB8CB82BB6D94D6B2BD /* JVColorBlender-dummy.m */; };
+		9CED2978DC36F786A4F27765124B53D4 /* JVContentType-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55DE6B424DA1A45701F1F5D65E9C5A8C /* JVContentType-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3B8F0D86B2CDD4188B0AB4AA32FA769 /* RandomNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3172EBBC6B1F2605C96CFAA06B689E6A /* RandomNumber.swift */; };
+		A949B59FA5162C6BB295515B47BFE261 /* CollectionExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A9A514050D939E863A93491AFAC063 /* CollectionExtensions.swift */; };
+		B2305AD08E1D960C6B35CD76A8E899A6 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9A2D7A87244BCFF103C78526BB731D /* StringExtensions.swift */; };
+		B7888CA35B787E2EA8119E8304F7E124 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EF578E84CFBEC44E10CD2D7EECEA1C /* UIColorExtensions.swift */; };
+		D542566ADD2CBB6269A6741BC0165B52 /* ContentTypeInitializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF28B9700386943C8522C952077E3561 /* ContentTypeInitializable.swift */; };
+		E17CD6C3EC6DADDAC94697D7620F3FAB /* ContentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EF383226CC1E84E6354DDE6E8F5460 /* ContentType.swift */; };
+		F44E6E97FE9FDA419A00698947A06786 /* JVContentType-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 235F70180633DB45F28E45E6AD0A0CE0 /* JVContentType-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,91 +41,91 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8C849145EF0773953FD900A07D571334;
+			remoteGlobalIDString = 37E722294DF287F34150C655751ED797;
 			remoteInfo = JVContentType;
+		};
+		43882BABDCA5C3807B3F20E6FFD931F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99C2180E5CC4909C0DAACAF62B6E3956;
+			remoteInfo = JVRandomNumberGenerator;
 		};
 		5E3FFAADC9FF0104D16D0FC5FAC11D16 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DA4697A275BDB5C39F874A320D3D4FF8;
+			remoteGlobalIDString = 963124AFE077E0C63D85F4141367543F;
 			remoteInfo = JVColorBlender;
 		};
 		9C12CB7C85237C4EAE7E0AD6A5F8B6DB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 99A98B438BF0A8A90E5C7AB9B6A06F5D;
+			remoteGlobalIDString = 99C2180E5CC4909C0DAACAF62B6E3956;
 			remoteInfo = JVRandomNumberGenerator;
 		};
-		9CF1B0C7852E066C2C2A34F59558947C /* PBXContainerItemProxy */ = {
+		BF158B66FDA1D75E8F3C277EB406F27B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8C849145EF0773953FD900A07D571334;
+			remoteGlobalIDString = 37E722294DF287F34150C655751ED797;
 			remoteInfo = JVContentType;
-		};
-		DAA83BF833EA1EC1EAF87AAD1D10A859 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 99A98B438BF0A8A90E5C7AB9B6A06F5D;
-			remoteInfo = JVRandomNumberGenerator;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		02C5331C29C7B96BC7495E17F4B4B30A /* Pods-JVColorBlender_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JVColorBlender_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		05BD24698E4C86EAFEEB7C94AEE5FFBA /* JVRandomNumberGenerator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVRandomNumberGenerator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		11C85F3F888A2AE7B073115C11B75345 /* JVColorBlender.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVColorBlender.modulemap; sourceTree = "<group>"; };
+		05BD24698E4C86EAFEEB7C94AEE5FFBA /* JVRandomNumberGenerator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVRandomNumberGenerator.framework; path = JVRandomNumberGenerator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B6CC41682CF042754A0011528E22F6D /* JVColorBlender.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVColorBlender.modulemap; sourceTree = "<group>"; };
+		0C244D9570834514D41176C9F47E497D /* ColorBlender.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorBlender.swift; path = JVColorBlender/Classes/ColorBlender.swift; sourceTree = "<group>"; };
+		0F81FBFD0CFF5A3D7862B95E7FD34AF7 /* JVColorBlender.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = JVColorBlender.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1475266EB54B814D5B5B0042BCB658F7 /* Pods-JVColorBlender_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JVColorBlender_Tests-umbrella.h"; sourceTree = "<group>"; };
+		235F70180633DB45F28E45E6AD0A0CE0 /* JVContentType-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVContentType-dummy.m"; sourceTree = "<group>"; };
 		26CA313862C641D62175050B4FF27D3D /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = JVRandomNumberGenerator/Classes/Extensions.swift; sourceTree = "<group>"; };
+		28706A9982AB84A993B67F3E0AB3C416 /* JVContentType-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVContentType-Info.plist"; sourceTree = "<group>"; };
 		2A1EB41AEABE0587E71CC9E294DAD756 /* JVRandomNumberGenerator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVRandomNumberGenerator-prefix.pch"; sourceTree = "<group>"; };
 		2B16D5EF50E8E05DC4F84B425279B229 /* JVRandomNumberGenerator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVRandomNumberGenerator.xcconfig; sourceTree = "<group>"; };
 		2F89FFDAF7439C15D2678378705827D3 /* Pods-JVColorBlender_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JVColorBlender_Tests-dummy.m"; sourceTree = "<group>"; };
 		3172EBBC6B1F2605C96CFAA06B689E6A /* RandomNumber.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RandomNumber.swift; path = JVRandomNumberGenerator/Classes/RandomNumber.swift; sourceTree = "<group>"; };
-		3839DFBD286D139F826FDD02ED0C2FDA /* JVContentType-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVContentType-dummy.m"; sourceTree = "<group>"; };
-		3AFDE3F83780BF385C996A77D5603508 /* ArrayExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArrayExtensions.swift; path = JVContentType/Classes/ArrayExtensions.swift; sourceTree = "<group>"; };
-		3C10A9C3E6691E4009ACD9346C9E35E5 /* JVContentType.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVContentType.modulemap; sourceTree = "<group>"; };
-		3E06B276536AC2869526D52E6D0FC2A0 /* JVColorBlender-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVColorBlender-dummy.m"; sourceTree = "<group>"; };
+		3D54D38ACCC66B6AC27DEF5555142FAD /* JVColorBlender.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVColorBlender.xcconfig; sourceTree = "<group>"; };
 		4073EE364F3D93D06A9881507BBE794F /* Pods-JVColorBlender_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JVColorBlender_Tests-Info.plist"; sourceTree = "<group>"; };
+		413931AB3BA49695F0ED17D67D22D256 /* JVColorBlender-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVColorBlender-prefix.pch"; sourceTree = "<group>"; };
 		42944C4FB9025588753A810055F4A6E3 /* JVContentType.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVContentType.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49D47A576F6B778AD7E0A1F4AFB5B65B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		4D74C3740DEE8FB9C9DE9172AB89EF7B /* JVRandomNumberGenerator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVRandomNumberGenerator-umbrella.h"; sourceTree = "<group>"; };
+		4FAAF20B97F5A1901496042A8C676F41 /* JVColorBlender-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVColorBlender-Info.plist"; sourceTree = "<group>"; };
 		52AF43BB117618F8EF5334A8F906CDB9 /* JVRandomNumberGenerator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVRandomNumberGenerator.modulemap; sourceTree = "<group>"; };
 		52D27C19D0682444DDEAEB30C6742A58 /* JVRandomNumberGenerator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVRandomNumberGenerator-dummy.m"; sourceTree = "<group>"; };
+		55DE6B424DA1A45701F1F5D65E9C5A8C /* JVContentType-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVContentType-umbrella.h"; sourceTree = "<group>"; };
 		628DD54135DD920C7E460D9D740600A3 /* RandomProbability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RandomProbability.swift; path = JVRandomNumberGenerator/Classes/RandomProbability.swift; sourceTree = "<group>"; };
-		69B1CDF021C6F13100653927 /* ColorBlender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorBlender.swift; sourceTree = "<group>"; };
-		69B1CDF121C6F13100653927 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
-		69B1CDF221C6F13100653927 /* ContentTypeColorBlender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTypeColorBlender.swift; sourceTree = "<group>"; };
-		69B1CDF321C6F13200653927 /* UIColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
 		6CA7D928FA5D88F72931167E6E4D123D /* Pods-JVColorBlender_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JVColorBlender_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6D7CB618ADD4F815A32CC87E8349FB19 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6FFCA2FA6029B2B86A5EF2BE8841CA95 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		770E70235107BAAF4EBF62EC95A07065 /* JVColorBlender-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVColorBlender-Info.plist"; sourceTree = "<group>"; };
-		7CEFEFF35A624BF4B8C3F196D36F6069 /* JVContentType-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVContentType-prefix.pch"; sourceTree = "<group>"; };
 		865A445C3E7CCE481463284C43F0BF72 /* JVRandomNumberGenerator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVRandomNumberGenerator-Info.plist"; sourceTree = "<group>"; };
 		88D4B56FB5FD335FA7361A6168CA1289 /* Pods-JVColorBlender_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JVColorBlender_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A20CFE25C700C035A78FAF3A63C2DD2C /* JVContentType.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVContentType.xcconfig; sourceTree = "<group>"; };
+		8B89F4EDE5FD0054AFDD9FE84EA0BCFD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		92EF578E84CFBEC44E10CD2D7EECEA1C /* UIColorExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorExtensions.swift; path = JVColorBlender/Classes/UIColorExtensions.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98FD344C90156E6B19600200FBFC5DFD /* ContentTypeColorBlender.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeColorBlender.swift; path = JVColorBlender/Classes/ContentTypeColorBlender.swift; sourceTree = "<group>"; };
 		A42E1249F083AA0004BD12A358D7EF4C /* Pods-JVColorBlender_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JVColorBlender_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		A486CE54AFD3FBB73B28EF850F75F732 /* JVColorBlender.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = JVColorBlender.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A7F06163F322F28CC88E655B0AA3B5C2 /* ContentType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentType.swift; path = JVContentType/Classes/ContentType.swift; sourceTree = "<group>"; };
-		B346D8B7ABB0AFC76DD7CD86B726FA6C /* JVColorBlender-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVColorBlender-prefix.pch"; sourceTree = "<group>"; };
-		B6DCB8CF3066B3E6E58C053AF903D559 /* Pods_JVColorBlender_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JVColorBlender_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE1629F751840CA90E797E99A175A4E0 /* JVColorBlender-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVColorBlender-umbrella.h"; sourceTree = "<group>"; };
+		B20FC61E9057A3184ACA1964B6C6ADEA /* JVContentType.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVContentType.modulemap; sourceTree = "<group>"; };
+		B4EF383226CC1E84E6354DDE6E8F5460 /* ContentType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentType.swift; path = JVContentType/Classes/ContentType.swift; sourceTree = "<group>"; };
+		B6DCB8CF3066B3E6E58C053AF903D559 /* Pods_JVColorBlender_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JVColorBlender_Tests.framework; path = "Pods-JVColorBlender_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7FF08048EF01DECE2D13B962A8105DF /* JVRandomNumberGenerator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVRandomNumberGenerator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BDEB9F1D73154DF99BA1385F82AEFB7B /* ContentTypeGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeGroup.swift; path = JVContentType/Classes/ContentTypeGroup.swift; sourceTree = "<group>"; };
-		C114BF2F1CDE375619EDC14A675C5754 /* JVContentType-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVContentType-umbrella.h"; sourceTree = "<group>"; };
-		C2AF9AB63FE9CF77DE74ACF36CD890B1 /* JVColorBlender.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVColorBlender.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAAF0FA322348D45669262E8EA743E8E /* ContentTypeGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeGroup.swift; path = JVContentType/Classes/ContentTypeGroup.swift; sourceTree = "<group>"; };
+		BE9A2D7A87244BCFF103C78526BB731D /* StringExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtensions.swift; path = JVColorBlender/Classes/StringExtensions.swift; sourceTree = "<group>"; };
+		C2AF9AB63FE9CF77DE74ACF36CD890B1 /* JVColorBlender.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVColorBlender.framework; path = JVColorBlender.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4A9A514050D939E863A93491AFAC063 /* CollectionExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollectionExtensions.swift; path = JVContentType/Classes/CollectionExtensions.swift; sourceTree = "<group>"; };
 		C8E77EC484F658160A93172B82E94722 /* Pods-JVColorBlender_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JVColorBlender_Tests.modulemap"; sourceTree = "<group>"; };
-		D0968EAEFB3B65CA9CBA86980DC7AF94 /* ContentTypeInitializable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeInitializable.swift; path = JVContentType/Classes/ContentTypeInitializable.swift; sourceTree = "<group>"; };
+		CF28B9700386943C8522C952077E3561 /* ContentTypeInitializable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeInitializable.swift; path = JVContentType/Classes/ContentTypeInitializable.swift; sourceTree = "<group>"; };
 		D10149D85DFF4D5891FEA734660E5143 /* Pods-JVColorBlender_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JVColorBlender_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D11D278989B36F80F6E0FD587EEDD19C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		D2178B4B50A815332D46462B0E1B2486 /* ContentTypeGroupInitializable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeGroupInitializable.swift; path = JVContentType/Classes/ContentTypeGroupInitializable.swift; sourceTree = "<group>"; };
-		DD3CE0BA7B41D500F50AA3D283283B16 /* JVContentType-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVContentType-Info.plist"; sourceTree = "<group>"; };
-		E02FCA0BD893894CADBF9C39481AB2E9 /* Copyable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Copyable.swift; path = JVContentType/Classes/Copyable.swift; sourceTree = "<group>"; };
-		E1F3E0DCA6FE6DD7A2BFF07534677D67 /* JVContentType.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVContentType.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5A9A8835D7F8668BFEF24BE2BFED4AA /* JVColorBlender-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVColorBlender-umbrella.h"; sourceTree = "<group>"; };
-		F2AE799A8BFC8E8F496B91A87E09D5AF /* JVColorBlender.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVColorBlender.xcconfig; sourceTree = "<group>"; };
+		D66A0D598D8CA41F6A666DFA8B5D2A47 /* ContentTypeGroupInitializable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeGroupInitializable.swift; path = JVContentType/Classes/ContentTypeGroupInitializable.swift; sourceTree = "<group>"; };
+		E063E0B13C9CBBB8CB82BB6D94D6B2BD /* JVColorBlender-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVColorBlender-dummy.m"; sourceTree = "<group>"; };
+		E1F3E0DCA6FE6DD7A2BFF07534677D67 /* JVContentType.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVContentType.framework; path = JVContentType.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECE9CA32223E71F928CF775E1B6D0E64 /* Copyable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Copyable.swift; path = JVContentType/Classes/Copyable.swift; sourceTree = "<group>"; };
+		F08E60665E8A7967D2AAC93D5F608E64 /* JVContentType.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVContentType.xcconfig; sourceTree = "<group>"; };
+		F86FA003717DE65DA47A81767AE1F4C1 /* JVContentType-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVContentType-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,29 +137,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3F2379E26FAA0218FB4645F8EE43DA35 /* Frameworks */ = {
+		786D58816C1ABF041774264BF79F27BE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				068C36400875AFD61719CEEC208C35CD /* Foundation.framework in Frameworks */,
+				6553AA59C8AB0A04CE3A2788D60FF21B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C0691940AB0A5C8C230A658BE7A7960B /* Frameworks */ = {
+		AFB4A7454B4A795D00034F4BBF868C61 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D81220548AE82B3EFA147299704F58F4 /* Foundation.framework in Frameworks */,
-				EB835E949A8A747D7022F6F28025E362 /* JVContentType.framework in Frameworks */,
-				9DD8338546B7E8906F90BCE93E347DD5 /* JVRandomNumberGenerator.framework in Frameworks */,
+				60738CE5183B8B08742A2AC326BDC7D2 /* Foundation.framework in Frameworks */,
+				2970F8247959952366847933BC26D017 /* JVContentType.framework in Frameworks */,
+				179ED6207D179DBFC233E90966C48B9F /* JVRandomNumberGenerator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D4312EDB20E8E631A0D6C5013CA93763 /* Frameworks */ = {
+		B978C75879C0F72085842D72A17B97A4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99EA8E80A24CBC849A39AB49288445D4 /* Foundation.framework in Frameworks */,
+				02B5DBD839448299CCE7822E601786C7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,18 +174,18 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		3BA5E28AA344F3BC5EB8CDAC10966D49 /* JVColorBlender */ = {
+		44CB07C47DB225B249EFDE05853752A7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				69B1CDF021C6F13100653927 /* ColorBlender.swift */,
-				69B1CDF221C6F13100653927 /* ContentTypeColorBlender.swift */,
-				69B1CDF121C6F13100653927 /* StringExtensions.swift */,
-				69B1CDF321C6F13200653927 /* UIColorExtensions.swift */,
-				EA8264D37F5FC2AC1672FFFCF6B3C349 /* Pod */,
-				D1298D8E2159141ABAFBEE2A6379C19D /* Support Files */,
+				0B6CC41682CF042754A0011528E22F6D /* JVColorBlender.modulemap */,
+				3D54D38ACCC66B6AC27DEF5555142FAD /* JVColorBlender.xcconfig */,
+				E063E0B13C9CBBB8CB82BB6D94D6B2BD /* JVColorBlender-dummy.m */,
+				4FAAF20B97F5A1901496042A8C676F41 /* JVColorBlender-Info.plist */,
+				413931AB3BA49695F0ED17D67D22D256 /* JVColorBlender-prefix.pch */,
+				AE1629F751840CA90E797E99A175A4E0 /* JVColorBlender-umbrella.h */,
 			);
-			name = JVColorBlender;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JVColorBlender";
 			sourceTree = "<group>";
 		};
 		45A66DA6ABDCF0E62864078C90A98674 /* iOS */ = {
@@ -190,20 +194,6 @@
 				6FFCA2FA6029B2B86A5EF2BE8841CA95 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		47D1BD40466308AD45F8C166108556F8 /* JVContentType */ = {
-			isa = PBXGroup;
-			children = (
-				3AFDE3F83780BF385C996A77D5603508 /* ArrayExtensions.swift */,
-				A7F06163F322F28CC88E655B0AA3B5C2 /* ContentType.swift */,
-				BDEB9F1D73154DF99BA1385F82AEFB7B /* ContentTypeGroup.swift */,
-				D2178B4B50A815332D46462B0E1B2486 /* ContentTypeGroupInitializable.swift */,
-				D0968EAEFB3B65CA9CBA86980DC7AF94 /* ContentTypeInitializable.swift */,
-				E02FCA0BD893894CADBF9C39481AB2E9 /* Copyable.swift */,
-				57078A78B7FBBDFC202BB60BED5FFA02 /* Support Files */,
-			);
-			path = JVContentType;
 			sourceTree = "<group>";
 		};
 		4926449CD50EAB00024D3F3B9E43FCA4 /* Products */ = {
@@ -215,20 +205,6 @@
 				B6DCB8CF3066B3E6E58C053AF903D559 /* Pods_JVColorBlender_Tests.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		57078A78B7FBBDFC202BB60BED5FFA02 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3C10A9C3E6691E4009ACD9346C9E35E5 /* JVContentType.modulemap */,
-				A20CFE25C700C035A78FAF3A63C2DD2C /* JVContentType.xcconfig */,
-				3839DFBD286D139F826FDD02ED0C2FDA /* JVContentType-dummy.m */,
-				DD3CE0BA7B41D500F50AA3D283283B16 /* JVContentType-Info.plist */,
-				7CEFEFF35A624BF4B8C3F196D36F6069 /* JVContentType-prefix.pch */,
-				C114BF2F1CDE375619EDC14A675C5754 /* JVContentType-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/JVContentType";
 			sourceTree = "<group>";
 		};
 		5E2F3E79ABA7F4D29956B63E9F8309C2 /* Support Files */ = {
@@ -245,11 +221,25 @@
 			path = "../Target Support Files/JVRandomNumberGenerator";
 			sourceTree = "<group>";
 		};
+		6DB6955F450E650145ED04C427F3CCC4 /* JVColorBlender */ = {
+			isa = PBXGroup;
+			children = (
+				0C244D9570834514D41176C9F47E497D /* ColorBlender.swift */,
+				98FD344C90156E6B19600200FBFC5DFD /* ContentTypeColorBlender.swift */,
+				BE9A2D7A87244BCFF103C78526BB731D /* StringExtensions.swift */,
+				92EF578E84CFBEC44E10CD2D7EECEA1C /* UIColorExtensions.swift */,
+				AE034F8D598EEDBE5816189695809FED /* Pod */,
+				44CB07C47DB225B249EFDE05853752A7 /* Support Files */,
+			);
+			name = JVColorBlender;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				88F0039812F865908F0418CC659A441D /* Development Pods */,
+				E48B338E6D2EE21D7C1B49972141E60F /* Development Pods */,
 				B8F6A9A8B1CEE83B6A4E14D429081C5B /* Frameworks */,
 				7DD2ACBDC75AF4BB6C7FCBAD8D0851E5 /* Pods */,
 				4926449CD50EAB00024D3F3B9E43FCA4 /* Products */,
@@ -260,18 +250,10 @@
 		7DD2ACBDC75AF4BB6C7FCBAD8D0851E5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				47D1BD40466308AD45F8C166108556F8 /* JVContentType */,
+				CBB80FBD2229AF19F5A9C5B09E2AD2B3 /* JVContentType */,
 				E049025E72FEC060C604101FF92D55FB /* JVRandomNumberGenerator */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		88F0039812F865908F0418CC659A441D /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3BA5E28AA344F3BC5EB8CDAC10966D49 /* JVColorBlender */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		A5C172D86D367294554BB0D3F8E6E46C /* Pods-JVColorBlender_Tests */ = {
@@ -291,6 +273,16 @@
 			path = "Target Support Files/Pods-JVColorBlender_Tests";
 			sourceTree = "<group>";
 		};
+		AE034F8D598EEDBE5816189695809FED /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0F81FBFD0CFF5A3D7862B95E7FD34AF7 /* JVColorBlender.podspec */,
+				8B89F4EDE5FD0054AFDD9FE84EA0BCFD /* LICENSE */,
+				49D47A576F6B778AD7E0A1F4AFB5B65B /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		B8F6A9A8B1CEE83B6A4E14D429081C5B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -301,18 +293,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D1298D8E2159141ABAFBEE2A6379C19D /* Support Files */ = {
+		CBB80FBD2229AF19F5A9C5B09E2AD2B3 /* JVContentType */ = {
 			isa = PBXGroup;
 			children = (
-				11C85F3F888A2AE7B073115C11B75345 /* JVColorBlender.modulemap */,
-				F2AE799A8BFC8E8F496B91A87E09D5AF /* JVColorBlender.xcconfig */,
-				3E06B276536AC2869526D52E6D0FC2A0 /* JVColorBlender-dummy.m */,
-				770E70235107BAAF4EBF62EC95A07065 /* JVColorBlender-Info.plist */,
-				B346D8B7ABB0AFC76DD7CD86B726FA6C /* JVColorBlender-prefix.pch */,
-				E5A9A8835D7F8668BFEF24BE2BFED4AA /* JVColorBlender-umbrella.h */,
+				C4A9A514050D939E863A93491AFAC063 /* CollectionExtensions.swift */,
+				B4EF383226CC1E84E6354DDE6E8F5460 /* ContentType.swift */,
+				BAAF0FA322348D45669262E8EA743E8E /* ContentTypeGroup.swift */,
+				D66A0D598D8CA41F6A666DFA8B5D2A47 /* ContentTypeGroupInitializable.swift */,
+				CF28B9700386943C8522C952077E3561 /* ContentTypeInitializable.swift */,
+				ECE9CA32223E71F928CF775E1B6D0E64 /* Copyable.swift */,
+				E8A59FDBC72A86F43AE9BE5A0F3EE57D /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/JVColorBlender";
+			name = JVContentType;
+			path = JVContentType;
 			sourceTree = "<group>";
 		};
 		E049025E72FEC060C604101FF92D55FB /* JVRandomNumberGenerator */ = {
@@ -323,27 +316,56 @@
 				628DD54135DD920C7E460D9D740600A3 /* RandomProbability.swift */,
 				5E2F3E79ABA7F4D29956B63E9F8309C2 /* Support Files */,
 			);
+			name = JVRandomNumberGenerator;
 			path = JVRandomNumberGenerator;
 			sourceTree = "<group>";
 		};
-		EA8264D37F5FC2AC1672FFFCF6B3C349 /* Pod */ = {
+		E48B338E6D2EE21D7C1B49972141E60F /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A486CE54AFD3FBB73B28EF850F75F732 /* JVColorBlender.podspec */,
-				D11D278989B36F80F6E0FD587EEDD19C /* LICENSE */,
-				6D7CB618ADD4F815A32CC87E8349FB19 /* README.md */,
+				6DB6955F450E650145ED04C427F3CCC4 /* JVColorBlender */,
 			);
-			name = Pod;
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E8A59FDBC72A86F43AE9BE5A0F3EE57D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B20FC61E9057A3184ACA1964B6C6ADEA /* JVContentType.modulemap */,
+				F08E60665E8A7967D2AAC93D5F608E64 /* JVContentType.xcconfig */,
+				235F70180633DB45F28E45E6AD0A0CE0 /* JVContentType-dummy.m */,
+				28706A9982AB84A993B67F3E0AB3C416 /* JVContentType-Info.plist */,
+				F86FA003717DE65DA47A81767AE1F4C1 /* JVContentType-prefix.pch */,
+				55DE6B424DA1A45701F1F5D65E9C5A8C /* JVContentType-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JVContentType";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		88D5B65D3FA5C305C389D2935E027BCB /* Headers */ = {
+		372901D01A3D211AAF6DD582F8751008 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9F3C4D1A39087A18FA7DEE4C1430ECB /* JVContentType-umbrella.h in Headers */,
+				9CED2978DC36F786A4F27765124B53D4 /* JVContentType-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		683E4EE38105DABC99195979A544A677 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D4BEB474280F0325AEB4764639A41CB /* JVRandomNumberGenerator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82C5242201766A05322EADBDAD710028 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E431B8D233AB0BCC780DBA29C4B7F22 /* JVColorBlender-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,33 +377,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AF472AC8183EF007DEBA7DF52F528353 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A669C71768F2029D8A8F7B07A60B4E76 /* JVRandomNumberGenerator-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D2C2248451EE1DC6E8E1195EABE79B59 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				79EDB18F18D93968FFDB0195A9726699 /* JVColorBlender-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		8C849145EF0773953FD900A07D571334 /* JVContentType */ = {
+		37E722294DF287F34150C655751ED797 /* JVContentType */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F5B13EF0CA0160A45E02C8E8697328A3 /* Build configuration list for PBXNativeTarget "JVContentType" */;
+			buildConfigurationList = DB603BC63506993ED2DCF752D62353C1 /* Build configuration list for PBXNativeTarget "JVContentType" */;
 			buildPhases = (
-				88D5B65D3FA5C305C389D2935E027BCB /* Headers */,
-				BAF80171B33A17809ABC0C600AEFDAF8 /* Sources */,
-				D4312EDB20E8E631A0D6C5013CA93763 /* Frameworks */,
-				25098532EA3ACA09D0B7134DF7E0442A /* Resources */,
+				372901D01A3D211AAF6DD582F8751008 /* Headers */,
+				BA96FB95BE0367CDCFC50313F9D975E2 /* Sources */,
+				786D58816C1ABF041774264BF79F27BE /* Frameworks */,
+				C94DDDE44B56F60F2E57F51A882E6EE7 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -392,14 +398,34 @@
 			productReference = E1F3E0DCA6FE6DD7A2BFF07534677D67 /* JVContentType.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		99A98B438BF0A8A90E5C7AB9B6A06F5D /* JVRandomNumberGenerator */ = {
+		963124AFE077E0C63D85F4141367543F /* JVColorBlender */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 70E88D95271ADA8D473474E46E5930D8 /* Build configuration list for PBXNativeTarget "JVRandomNumberGenerator" */;
+			buildConfigurationList = 81C9C7AFB6DB7C9C1EFD5A84E5919385 /* Build configuration list for PBXNativeTarget "JVColorBlender" */;
 			buildPhases = (
-				AF472AC8183EF007DEBA7DF52F528353 /* Headers */,
-				447FB5A6820F46198F5D7378A6E7191D /* Sources */,
-				3F2379E26FAA0218FB4645F8EE43DA35 /* Frameworks */,
-				3A643C19C26D045F57CA5C5FF54427C9 /* Resources */,
+				82C5242201766A05322EADBDAD710028 /* Headers */,
+				C395198BD64B80CD66387285441CD075 /* Sources */,
+				AFB4A7454B4A795D00034F4BBF868C61 /* Frameworks */,
+				5320262DFB1A494579B4DED515B4B9C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F381F207528FE35C79E8DE234EBC1E47 /* PBXTargetDependency */,
+				A947BE0E2729B6BCBA7712ADEFC5C3FE /* PBXTargetDependency */,
+			);
+			name = JVColorBlender;
+			productName = JVColorBlender;
+			productReference = C2AF9AB63FE9CF77DE74ACF36CD890B1 /* JVColorBlender.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		99C2180E5CC4909C0DAACAF62B6E3956 /* JVRandomNumberGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9180C73D93E6C15A05B277B8C3A9B2A /* Build configuration list for PBXNativeTarget "JVRandomNumberGenerator" */;
+			buildPhases = (
+				683E4EE38105DABC99195979A544A677 /* Headers */,
+				6B9448D1C1D7A226E417F0DA11E84E4B /* Sources */,
+				B978C75879C0F72085842D72A17B97A4 /* Frameworks */,
+				C330A057E8D2544A24305305CF291EDE /* Resources */,
 			);
 			buildRules = (
 			);
@@ -431,26 +457,6 @@
 			productReference = B6DCB8CF3066B3E6E58C053AF903D559 /* Pods_JVColorBlender_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		DA4697A275BDB5C39F874A320D3D4FF8 /* JVColorBlender */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D1631BAFDAAF34F1B7892EC83220C98E /* Build configuration list for PBXNativeTarget "JVColorBlender" */;
-			buildPhases = (
-				D2C2248451EE1DC6E8E1195EABE79B59 /* Headers */,
-				9F2F7FC1A1D6EE48D08B5C8F245DEE1B /* Sources */,
-				C0691940AB0A5C8C230A658BE7A7960B /* Frameworks */,
-				59430056087FE17138E3A788B8D02BA8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FE4C865BFBFEBC1C8C71B88B4F36A15D /* PBXTargetDependency */,
-				827A366B6A3D1304B105F1EFFF39C242 /* PBXTargetDependency */,
-			);
-			name = JVColorBlender;
-			productName = JVColorBlender;
-			productReference = C2AF9AB63FE9CF77DE74ACF36CD890B1 /* JVColorBlender.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -472,22 +478,15 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DA4697A275BDB5C39F874A320D3D4FF8 /* JVColorBlender */,
-				8C849145EF0773953FD900A07D571334 /* JVContentType */,
-				99A98B438BF0A8A90E5C7AB9B6A06F5D /* JVRandomNumberGenerator */,
+				963124AFE077E0C63D85F4141367543F /* JVColorBlender */,
+				37E722294DF287F34150C655751ED797 /* JVContentType */,
+				99C2180E5CC4909C0DAACAF62B6E3956 /* JVRandomNumberGenerator */,
 				BE378B245CFFBB0640A4774943A74FF4 /* Pods-JVColorBlender_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		25098532EA3ACA09D0B7134DF7E0442A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		35686403E54DB03100E48DEEDBFCF23C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -495,14 +494,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3A643C19C26D045F57CA5C5FF54427C9 /* Resources */ = {
+		5320262DFB1A494579B4DED515B4B9C0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		59430056087FE17138E3A788B8D02BA8 /* Resources */ = {
+		C330A057E8D2544A24305305CF291EDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C94DDDE44B56F60F2E57F51A882E6EE7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -512,14 +518,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		447FB5A6820F46198F5D7378A6E7191D /* Sources */ = {
+		6B9448D1C1D7A226E417F0DA11E84E4B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC4B0095A308E6BDFED53A615345F447 /* Extensions.swift in Sources */,
-				3C0BE67144D8435638FE717EC24CC10E /* JVRandomNumberGenerator-dummy.m in Sources */,
-				4ACD7614E1CC984267B8ABDBA004181E /* RandomNumber.swift in Sources */,
-				8ABFB11A424EBBD41E306796BDC12EB3 /* RandomProbability.swift in Sources */,
+				4EF34B9B1BE90DA7D70A4B1CCAE63928 /* Extensions.swift in Sources */,
+				105623F9C1BAC00C9EC225F0F2D7B895 /* JVRandomNumberGenerator-dummy.m in Sources */,
+				A3B8F0D86B2CDD4188B0AB4AA32FA769 /* RandomNumber.swift in Sources */,
+				2FF0F86605D457AC7F0AFF6A4E7B47B5 /* RandomProbability.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -531,25 +537,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9F2F7FC1A1D6EE48D08B5C8F245DEE1B /* Sources */ = {
+		BA96FB95BE0367CDCFC50313F9D975E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				138A6E38DB8B612E2D9B2877FC1965C4 /* JVColorBlender-dummy.m in Sources */,
+				A949B59FA5162C6BB295515B47BFE261 /* CollectionExtensions.swift in Sources */,
+				E17CD6C3EC6DADDAC94697D7620F3FAB /* ContentType.swift in Sources */,
+				0832495659A96695D054027BF470FC63 /* ContentTypeGroup.swift in Sources */,
+				5E76C283D4B4CA182A1C2DB7AA9CF11F /* ContentTypeGroupInitializable.swift in Sources */,
+				D542566ADD2CBB6269A6741BC0165B52 /* ContentTypeInitializable.swift in Sources */,
+				56C33C8B87E006BAE0BCE98991FFB518 /* Copyable.swift in Sources */,
+				F44E6E97FE9FDA419A00698947A06786 /* JVContentType-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BAF80171B33A17809ABC0C600AEFDAF8 /* Sources */ = {
+		C395198BD64B80CD66387285441CD075 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31E0923998385D0CAD77A07E11393655 /* ArrayExtensions.swift in Sources */,
-				2F6EDB20782E90B68B38D5B3A19335B7 /* ContentType.swift in Sources */,
-				FDE437E66D6396B00D83235BD108C297 /* ContentTypeGroup.swift in Sources */,
-				E3A487E225C55C4544B7C3785215C3CF /* ContentTypeGroupInitializable.swift in Sources */,
-				01C041CDCDDE252089EB7C6C8A0D2A99 /* ContentTypeInitializable.swift in Sources */,
-				44CFF1414C0F4D255B47911662C90EAF /* Copyable.swift in Sources */,
-				112453C5FAA7772A3E203BC33E2F73D8 /* JVContentType-dummy.m in Sources */,
+				7F9EDDFB745118C3B0DC232C14B38EC6 /* ColorBlender.swift in Sources */,
+				7781DC7F9DA3242097DDF469B0150B29 /* ContentTypeColorBlender.swift in Sources */,
+				849F6267BA68F9915E3B8D35CA39E0B1 /* JVColorBlender-dummy.m in Sources */,
+				B2305AD08E1D960C6B35CD76A8E899A6 /* StringExtensions.swift in Sources */,
+				B7888CA35B787E2EA8119E8304F7E124 /* UIColorExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -559,37 +569,37 @@
 		23FF9BC3A5098E2FCA402273299766AC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JVContentType;
-			target = 8C849145EF0773953FD900A07D571334 /* JVContentType */;
+			target = 37E722294DF287F34150C655751ED797 /* JVContentType */;
 			targetProxy = 27C56B5B71B53ADA444A70E4DB862F44 /* PBXContainerItemProxy */;
 		};
 		309F1953E2C3DE158F5C527BB11F1CC3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JVRandomNumberGenerator;
-			target = 99A98B438BF0A8A90E5C7AB9B6A06F5D /* JVRandomNumberGenerator */;
+			target = 99C2180E5CC4909C0DAACAF62B6E3956 /* JVRandomNumberGenerator */;
 			targetProxy = 9C12CB7C85237C4EAE7E0AD6A5F8B6DB /* PBXContainerItemProxy */;
 		};
-		827A366B6A3D1304B105F1EFFF39C242 /* PBXTargetDependency */ = {
+		A947BE0E2729B6BCBA7712ADEFC5C3FE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JVRandomNumberGenerator;
-			target = 99A98B438BF0A8A90E5C7AB9B6A06F5D /* JVRandomNumberGenerator */;
-			targetProxy = DAA83BF833EA1EC1EAF87AAD1D10A859 /* PBXContainerItemProxy */;
+			target = 99C2180E5CC4909C0DAACAF62B6E3956 /* JVRandomNumberGenerator */;
+			targetProxy = 43882BABDCA5C3807B3F20E6FFD931F3 /* PBXContainerItemProxy */;
+		};
+		F381F207528FE35C79E8DE234EBC1E47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JVContentType;
+			target = 37E722294DF287F34150C655751ED797 /* JVContentType */;
+			targetProxy = BF158B66FDA1D75E8F3C277EB406F27B /* PBXContainerItemProxy */;
 		};
 		FC2F3509ABADEA37381B0E203B7C7837 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JVColorBlender;
-			target = DA4697A275BDB5C39F874A320D3D4FF8 /* JVColorBlender */;
+			target = 963124AFE077E0C63D85F4141367543F /* JVColorBlender */;
 			targetProxy = 5E3FFAADC9FF0104D16D0FC5FAC11D16 /* PBXContainerItemProxy */;
-		};
-		FE4C865BFBFEBC1C8C71B88B4F36A15D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = JVContentType;
-			target = 8C849145EF0773953FD900A07D571334 /* JVContentType */;
-			targetProxy = 9CF1B0C7852E066C2C2A34F59558947C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2137F0A7C0A4F5402B116EF0E9730B66 /* Debug */ = {
+		4AD0B672F39D657FA28D458EEC16397A /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2B16D5EF50E8E05DC4F84B425279B229 /* JVRandomNumberGenerator.xcconfig */;
 			buildSettings = {
@@ -615,6 +625,42 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		56124C75B2BCD59F924A0C764D3DF6CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D54D38ACCC66B6AC27DEF5555142FAD /* JVColorBlender.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JVColorBlender/JVColorBlender-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVColorBlender/JVColorBlender-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JVColorBlender/JVColorBlender.modulemap";
+				PRODUCT_MODULE_NAME = JVColorBlender;
+				PRODUCT_NAME = JVColorBlender;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -623,9 +669,9 @@
 			};
 			name = Debug;
 		};
-		21A5F286912E9335F2EB39ABE978DCB2 /* Release */ = {
+		5DBF272EC7C2D80D567E2770DD0F0129 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A20CFE25C700C035A78FAF3A63C2DD2C /* JVContentType.xcconfig */;
+			baseConfigurationReference = F08E60665E8A7967D2AAC93D5F608E64 /* JVContentType.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -649,41 +695,6 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		42353A06B478EAD186653C455082CA97 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F2AE799A8BFC8E8F496B91A87E09D5AF /* JVColorBlender.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JVColorBlender/JVColorBlender-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JVColorBlender/JVColorBlender-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JVColorBlender/JVColorBlender.modulemap";
-				PRODUCT_MODULE_NAME = JVColorBlender;
-				PRODUCT_NAME = JVColorBlender;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -691,76 +702,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		50999769EB4755C8CA55A57168A518AF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B16D5EF50E8E05DC4F84B425279B229 /* JVRandomNumberGenerator.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JVRandomNumberGenerator/JVRandomNumberGenerator-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JVRandomNumberGenerator/JVRandomNumberGenerator-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JVRandomNumberGenerator/JVRandomNumberGenerator.modulemap";
-				PRODUCT_MODULE_NAME = JVRandomNumberGenerator;
-				PRODUCT_NAME = JVRandomNumberGenerator;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		613F7128804D307C733DB458DBB6FB70 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F2AE799A8BFC8E8F496B91A87E09D5AF /* JVColorBlender.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JVColorBlender/JVColorBlender-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JVColorBlender/JVColorBlender-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JVColorBlender/JVColorBlender.modulemap";
-				PRODUCT_MODULE_NAME = JVColorBlender;
-				PRODUCT_NAME = JVColorBlender;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		6AC6D1178E95E4E75A241B2F479B635E /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -799,6 +740,40 @@
 			};
 			name = Debug;
 		};
+		6C13D8B9A190642869E5BA13048F2AC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B16D5EF50E8E05DC4F84B425279B229 /* JVRandomNumberGenerator.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JVRandomNumberGenerator/JVRandomNumberGenerator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVRandomNumberGenerator/JVRandomNumberGenerator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JVRandomNumberGenerator/JVRandomNumberGenerator.modulemap";
+				PRODUCT_MODULE_NAME = JVRandomNumberGenerator;
+				PRODUCT_NAME = JVRandomNumberGenerator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		7EA02B8DBCF6AB01708DB31F1ECD6C3C /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 88D4B56FB5FD335FA7361A6168CA1289 /* Pods-JVColorBlender_Tests.release.xcconfig */;
@@ -828,7 +803,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -900,9 +876,9 @@
 			};
 			name = Debug;
 		};
-		9C936A23F47DC938BE8D834F987FC15A /* Debug */ = {
+		AFFCB51EEB5F94D1DA45A247CA103398 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A20CFE25C700C035A78FAF3A63C2DD2C /* JVContentType.xcconfig */;
+			baseConfigurationReference = 3D54D38ACCC66B6AC27DEF5555142FAD /* JVColorBlender.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -915,24 +891,26 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JVContentType/JVContentType-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JVContentType/JVContentType-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/JVColorBlender/JVColorBlender-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVColorBlender/JVColorBlender-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JVContentType/JVContentType.modulemap";
-				PRODUCT_MODULE_NAME = JVContentType;
-				PRODUCT_NAME = JVContentType;
+				MODULEMAP_FILE = "Target Support Files/JVColorBlender/JVColorBlender.modulemap";
+				PRODUCT_MODULE_NAME = JVColorBlender;
+				PRODUCT_NAME = JVColorBlender;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		B751CA5B597BFC35A6C0287C65F9E2E1 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -993,6 +971,42 @@
 			};
 			name = Release;
 		};
+		FB3A0D10F3DA7246616A8DCDC39CA929 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F08E60665E8A7967D2AAC93D5F608E64 /* JVContentType.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JVContentType/JVContentType-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVContentType/JVContentType-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JVContentType/JVContentType.modulemap";
+				PRODUCT_MODULE_NAME = JVContentType;
+				PRODUCT_NAME = JVContentType;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1014,29 +1028,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		70E88D95271ADA8D473474E46E5930D8 /* Build configuration list for PBXNativeTarget "JVRandomNumberGenerator" */ = {
+		81C9C7AFB6DB7C9C1EFD5A84E5919385 /* Build configuration list for PBXNativeTarget "JVColorBlender" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2137F0A7C0A4F5402B116EF0E9730B66 /* Debug */,
-				50999769EB4755C8CA55A57168A518AF /* Release */,
+				56124C75B2BCD59F924A0C764D3DF6CE /* Debug */,
+				AFFCB51EEB5F94D1DA45A247CA103398 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D1631BAFDAAF34F1B7892EC83220C98E /* Build configuration list for PBXNativeTarget "JVColorBlender" */ = {
+		D9180C73D93E6C15A05B277B8C3A9B2A /* Build configuration list for PBXNativeTarget "JVRandomNumberGenerator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				42353A06B478EAD186653C455082CA97 /* Debug */,
-				613F7128804D307C733DB458DBB6FB70 /* Release */,
+				6C13D8B9A190642869E5BA13048F2AC3 /* Debug */,
+				4AD0B672F39D657FA28D458EEC16397A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F5B13EF0CA0160A45E02C8E8697328A3 /* Build configuration list for PBXNativeTarget "JVContentType" */ = {
+		DB603BC63506993ED2DCF752D62353C1 /* Build configuration list for PBXNativeTarget "JVContentType" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9C936A23F47DC938BE8D834F987FC15A /* Debug */,
-				21A5F286912E9335F2EB39ABE978DCB2 /* Release */,
+				5DBF272EC7C2D80D567E2770DD0F0129 /* Debug */,
+				FB3A0D10F3DA7246616A8DCDC39CA929 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
